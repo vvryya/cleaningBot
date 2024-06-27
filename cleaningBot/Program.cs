@@ -20,7 +20,7 @@ namespace CleaningBot
         };
         static void Main(string[] args) 
         {
-            var client = new TelegramBotClient("6931912850:AAFmoqjQ2iwL_TNDgWGXtlhd9NVetM5KAHg");
+            var client = new TelegramBotClient("6931912850:AAFmoqjQ2iwL_TNDgWGXd9NVetM5KAHg");
             client.StartReceiving(Update, Error);
             Console.ReadLine();
         }
